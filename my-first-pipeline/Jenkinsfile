@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('version') {
+    stage('check') {
       steps {
         bat 'node --version'
       }
